@@ -1,0 +1,15 @@
+{
+  "build": {
+    "builder": "nodejs",
+    "buildCommand": "npm install"
+  },
+  "start": {
+    "startCommand": "npm start",
+    "port": 3000
+  },
+  "deploy": {
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }
+}
