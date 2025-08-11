@@ -1,8 +1,4 @@
 {
-  "build": {
-    "builder": "nodejs",
-    "buildCommand": "npm install"
-  },
   "start": {
     "startCommand": "npm start",
     "port": 3000
